@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="es.miguel.glide.GlideActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="Probando la librería Glide"/>
+
+    <Button
+        android:id="@+id/btn_basico"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:layout_margin="50dp"
+        android:text="basico" />
+
+    <Button
+        android:id="@+id/btn_avanzado"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:layout_margin="50dp"
+        android:text="avanzado" />
+
+</LinearLayout>
